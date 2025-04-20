@@ -54,14 +54,14 @@ Developer's Technical Query: {user_message}
             }
         ],
 
-        "http_referer": "https://mfpsdocs.onrender.com",  
+        "http_referer": "https://docbotllmunity.onrender.com",  
         "http_user_agent": "MFPS-2.0/1.0.0", 
     }
     
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://mfpsdocs.onrender.com",  
+        "HTTP-Referer": "https://docbotllmunity.onrender.com",  
         "X-Title": "MFPS 2.0 Architecture Assistant",  #
     
         "OR-PROMPT-TRAINING": "allow"  
